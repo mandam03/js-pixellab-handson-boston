@@ -1,6 +1,6 @@
 var inputLength = document.getElementById('length');
 var inputWidth = document.getElementById('width');
-var inputWidth = document.getElementById('height');
+var inputHeight = document.getElementById('height');
 var elementResult = document.getElementById('result');
 var form = document.querySelector('form');
 
