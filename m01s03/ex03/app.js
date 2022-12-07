@@ -67,3 +67,5 @@ console.log(
     ' ' +
     carol.friends.andra.friends.person.surname,
 );
+
+console.log(larry.name + ' ' + larry.surname);
