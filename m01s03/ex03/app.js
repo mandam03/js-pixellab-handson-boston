@@ -69,3 +69,18 @@ console.log(
 );
 
 console.log(larry.name + ' ' + larry.surname);
+
+console.warn(`
+Folosind obiectul Andra afiseaza numarul
+total de caractere al numelui complet al lui Person.
+`);
+
+console.log(
+  (
+    andra.friends.carol.friends.person.name.length +
+    ' ' +
+    andra.friends.carol.friends.person.surname.length
+  ).toString(),
+);
+
+// nu am reusit sa gasesc o solutie //
