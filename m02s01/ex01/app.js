@@ -106,3 +106,17 @@ const opel = new Car('Opel', 'red', 4, 3);
  */
 
 const cars = [audi, opel];
+
+cars.forEach((car) => {
+  console.log(
+    `Masina era marca ${car.make} si se deplasa cu ${car.speed} km/h.`,
+  );
+
+  car.decelerate();
+  car.decelerate();
+  car.decelerate();
+  car.decelerate();
+  car.decelerate();
+
+  console.log(`Viteza noua este ${car.spedd} km/h.`);
+});
