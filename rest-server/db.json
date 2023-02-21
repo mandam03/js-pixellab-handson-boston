@@ -1,3 +1,28 @@
 {
-  "persons": []
+  "persons": [
+    {
+      "name": "Carol",
+      "surname": "Carolson",
+      "skills": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "name": "Steven",
+      "surname": "Stevenson",
+      "skills": [
+        "a",
+        "b"
+      ]
+    },
+    {
+      "id": "989241",
+      "name": "Mandache",
+      "surname": "Mihaela",
+      "skills": [
+        "uiu"
+      ]
+    }
+  ]
 }
